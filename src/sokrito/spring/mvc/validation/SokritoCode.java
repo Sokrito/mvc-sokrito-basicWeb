@@ -12,7 +12,6 @@ import javax.validation.Payload;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface SokritoCode {
 
-	// define default sokrito code
 	public String value() default "KEY";
 	// define default error message
 	public String message() default "must start with KEY";
